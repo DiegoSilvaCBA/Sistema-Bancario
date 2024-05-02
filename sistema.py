@@ -58,3 +58,9 @@ while True:
         print("Não foram realizadas movimentações na conta." if not extrato else extrato)
         print(f"\nSaldo: R$ {saldo:.2f}")
         print("=======================================")
+
+    elif opcao == "q":
+        break
+
+    else: 
+        print("Operação inválida, Por favor selecione novamente a operação desejada!")
